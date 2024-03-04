@@ -8,7 +8,7 @@ export default async function DashboardPage() {
   if (!currentUser) redirect("/sign-in");
 
   return (
-    <main className="container">
+    <main className="container bg-red-200">
       <PageContent variant="dashboard" currentUser={currentUser.toJSON() as typeof currentUser} />
     </main>
   );

@@ -27,12 +27,12 @@ export default function PageContent({
     if (isOk) router.push("/sign-in");
   };
 
-  const buttonStyle = "bg-slate-500 mt-2 px-2 py-1 rounded-md text-slate-50";
+  const buttonStyle = "bg-slate-500 mt-2 px-2 py-1 rounded-md text-slate-50 ";
 
   if (variant === "sign-in")
     return (
       <>
-        <h1>Sing In Page</h1>
+        <h1>signIn In Page</h1>
         <button className={buttonStyle} onClick={handleSignIn}>
           Sign In with Google
         </button>
